@@ -6,7 +6,10 @@ Git captures what you shipped and PRs capture what changed. Even if you were to 
 
 So I built decision-log. It hooks into Claude Code and extracts decisions automatically when a session ends. The log writes itself.
 
+<br>
+
 <img width="651" height="670" alt="Screenshot 2026-05-30 at 3 54 17 PM" src="https://github.com/user-attachments/assets/71c554f9-bb60-453d-8645-538af182d164" />
+
 
 ## What it captures
 
