@@ -1,0 +1,8 @@
+{
+  "name": "decision-log",
+  "version": "1.0.0",
+  "description": "Automatically captures product decisions from Claude Code sessions into a searchable timeline",
+  "hooks": {
+    "Stop": "node dist/hooks/stop.js"
+  }
+}

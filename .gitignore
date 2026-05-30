@@ -1,0 +1,14 @@
+node_modules/
+dist/
+*.db
+*.db-shm
+*.db-wal
+.env
+.DS_Store
+
+# Design reference files used during development — not part of the published project
+app.js
+seed.js
+styles.css
+Decision Log.html
+RESTYLE_PROMPT.md
