@@ -2,9 +2,11 @@
 
 I was in the middle of a long Claude Code session when I realized I'd made about a dozen real product decisions and had no record of any of them. Not just what I built, but why I built it that way, what I decided not to build, and what I pushed to later. The reasoning lived in the conversation and nowhere else.
 
-Git captures what you shipped. PRs capture what changed. Nothing captures why you went one direction over another, or what you explicitly ruled out. With Claude Code that problem got worse for me, because I started making a week's worth of decisions in a single session. When the session ends, that context is just gone.
+Git captures what you shipped and PRs capture what changed. Even if you were to capture /summary at the end of each Claude session and transfer it to a Notion doc, it's not automatic and immediate. Also, nothing captures why you went one direction over another, or what you explicitly ruled out. With Claude Code that problem got worse for me, because I started making a week's worth of decisions in a single session. When the session ends, that context is just gone.
 
 So I built decision-log. It hooks into Claude Code and extracts decisions automatically when a session ends. The log writes itself.
+
+<img width="651" height="670" alt="Screenshot 2026-05-30 at 3 54 17 PM" src="https://github.com/user-attachments/assets/71c554f9-bb60-453d-8645-538af182d164" />
 
 ## What it captures
 
@@ -102,4 +104,4 @@ Once registered, the hook runs automatically at the end of every Claude Code ses
 
 decision-log only captures decisions made inside Claude Code sessions. Decisions from meetings, Slack, or other contexts won't appear unless you add them manually through the web UI. If a session is mostly implementation with no real tradeoffs, it exits silently without logging anything.
 
-The tool is local-only, with no sync, no accounts, and no cloud storage. Your decisions stay on your machine.
+The tool is local-only (no sync / accounts / cloud storage). 
