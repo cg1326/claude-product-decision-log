@@ -1,10 +1,10 @@
 # decision-log
 
-You're six months into a product. Someone asks why you didn't build the native app, and nobody can remember. The Notion page is empty. The PRs show what you built, not what you ruled out. The person who made the call has moved on, or just forgotten.
+I was in the middle of a long Claude Code session when I realized I'd made about a dozen real product decisions and had no record of any of them. Not just what I built, but why I built it that way, what I decided not to build, and what I pushed to later. The reasoning lived in the conversation and nowhere else.
 
-This is the default state of every software product. The reasoning behind the architecture, the alternatives that got ruled out, the things you pushed to later: it all lives in conversations and then disappears. AI-assisted development makes this worse, because you can now make a week's worth of decisions in a single Claude Code session, and when the session ends, the reasoning is gone.
+Git captures what you shipped. PRs capture what changed. Nothing captures why you went one direction over another, or what you explicitly ruled out. With Claude Code that problem got worse for me, because I started making a week's worth of decisions in a single session. When the session ends, that context is just gone.
 
-decision-log hooks into Claude Code and writes the decision record automatically, so you don't have to remember to open Notion. The log writes itself.
+So I built decision-log. It hooks into Claude Code and extracts decisions automatically when a session ends. The log writes itself.
 
 ## What it captures
 
