@@ -2,7 +2,7 @@
 
 I was in the middle of a long Claude Code session when I realized I'd made about a dozen real product decisions and had no record of any of them. Not just what I built, but why I built it that way, what I decided not to build, and what I pushed to later. The reasoning lived in the conversation and nowhere else.
 
-Git captures what you shipped and PRs capture what changed. Even if you were to capture /summary at the end of each Claude session and transfer it to a Notion doc, it's not immediate nor packaged in a way that clearly segments your thinking (particularly if someone asks you to explain why you decided to build X instead of Y). Also, nothing captures why you went one direction over another, or what you explicitly ruled out. With Claude Code that problem got worse for me, because I started making a week's worth of decisions in a single session. When the session ends, that context is just gone.
+Git captures what you shipped and PRs capture what changed. Even if you were to capture /summary at the end of each Claude session and transfer it to a Notion doc, it's not immediate nor packaged in a way that clearly segments your thinking (particularly if someone asks you to explain why you decided to build X instead of Y, or explicitly ruled seomething out). With Claude Code that problem got worse for me, because I started making a lot of decisions in a single session. When the session ends, that context is just gone.
 
 So I built decision-log. It hooks into Claude Code and extracts decisions automatically when a session ends. The log writes itself.
 
