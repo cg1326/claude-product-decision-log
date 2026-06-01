@@ -14,7 +14,7 @@ So I built decision-log. It hooks into Claude Code and extracts decisions automa
                                                                                            
 If you use Claude Code regularly and make real product or architecture decisions during your sessions, this is for you. That probably means you're a solo founder, an indie developer, a product manager just starting to write code yourself, or a small team without a dedicated product manager writing everything down.  
                                                                                            
-It's less useful if your Claude Code sessions are mostly implementation work with no real tradeoffs, or if you already have a disciplined habit of logging decisions somewhere else. But if you've ever shipped something and then forgotten why it works the way it does from a product lens, this will feel immediately useful.
+It's less useful if your Claude Code sessions are mostly implementation work with no real tradeoffs, or if you already have a disciplined habit of logging decisions somewhere else. But if you've ever shipped something and then were unable to articulate what exactly you were thinking when deciding on the tradeoffs, this will feel immediately useful.
 
 ## What it captures
 
